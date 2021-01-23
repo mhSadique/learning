@@ -9,14 +9,13 @@ function kilometerToMeter(kilo) {
 // budgetCalculator
 
 function budgetCalculator(watch, mobile, laptop) {
-    let watchPrice = watch * 50;
-    let mobilePrice = mobile * 100;
-    let laptopPrice = laptop * 500;
+    let watchPrice = Math.trunc(watch) * 50;
+    let mobilePrice = Math.trunc(mobile) * 100;
+    let laptopPrice = Math.trunc(laptop) * 500;
 
     let sum = watchPrice + mobilePrice + laptopPrice;
     return sum;
 }
-
 
 // hotelCost
 
