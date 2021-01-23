@@ -43,7 +43,6 @@ function hotelCost(daysSpent) {
 
 // megaFriend
 
-let friends = ["Abdul", "Abul Barkat Jalali", "Abdur Rahman", "Jamal"];
 
 function megaFriend(arr) {
     let longestName = arr[0];
